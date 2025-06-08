@@ -1,0 +1,10 @@
+build:
+  # устанавливаем зависимости
+  command: pip install -r requirements.txt
+run:
+  # запускаем скрипт бота
+  command: python bot.py
+env:
+  TOKEN: "8151676195:AAGAxxkgVYIC1FPdfe405Kk33ecP0vW7uMg"
+  ADMIN_ID: "5160389108"
+  BACKUP_CHANNEL_ID: "-1002589404034"
